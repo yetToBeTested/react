@@ -14,7 +14,7 @@ const login: FC<Iprops> = () => {
       <Button>Normal</Button>
       <Button $primary>Primary</Button>
       <br />
-      <Link>Unstyled, boring Link</Link>
+      <Link>Unstyled, boring Lin33k</Link>
       <br />
       <StyledLink>Styled, exciting Link</StyledLink>
     </Wrapper>
