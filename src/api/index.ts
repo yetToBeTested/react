@@ -4,7 +4,7 @@ import { localCache } from '@/utils/cache'
 import HYRequest from './request'
 
 const hyRequest = new HYRequest({
-  baseURL: 'http://106.52.235.252:8101',
+  baseURL: '/api',
   interceptors: {
     requestSuccessFn: (config) => {
       // 每一个请求都自动携带token
